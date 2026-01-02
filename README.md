@@ -56,3 +56,68 @@ Projeto desenvolvido como parte da **Global Solution – AI Computer Systems and
 - Armazenamento de dados em nuvem
 - Dashboard web para visualização histórica
 
+```
+
+---
+
+# 🌧️ Smart Flood Alert System (English Version)
+
+IoT-based intelligent monitoring system designed to prevent floods and heavy rain impacts using ESP32 and environmental sensors. The system collects temperature, humidity, and water level data to detect risk conditions and trigger visual and audible alerts in real time.
+
+## 🎯 Project Objective
+
+To develop a practical and accessible IoT solution that supports flood prevention, especially in areas near rivers, using sensor data to assist decision-making.
+
+## 🧠 Technologies Used
+
+* ESP32 DevKit V4
+* DHT22 Sensor (temperature and humidity)
+* HC-SR04 Ultrasonic Sensor (water level)
+* LED (visual alert)
+* Buzzer (audible alert)
+* Arduino / C++
+* Wokwi (circuit simulation)
+
+## ⚙️ System Operation
+
+* The **DHT22** sensor monitors ambient temperature and humidity
+* When conditions indicate possible rainfall, the **LED is activated**
+* The **ultrasonic sensor** measures the distance to the water level
+* If the water reaches a critical threshold, the **buzzer emits an alert sound**
+* All readings are displayed in an organized format on the **Serial Monitor**
+
+## 📁 Repository Structure
+
+```
+├── src/
+│   └── prog.ino     # Main ESP32 source code
+├── diagram.json     # Circuit diagram (Wokwi)
+├── wokwi.toml       # Wokwi environment configuration
+└── README.md        # Project documentation
+```
+
+## 🧪 Simulation
+
+The project can be fully tested and executed using **Wokwi**, allowing complete hardware simulation and alert visualization.
+
+## 🎥 Demonstration
+
+System demonstration video:
+[https://youtu.be/4qRYuLY9ueQ](https://youtu.be/4qRYuLY9ueQ)
+
+## 👥 Authors
+
+* Augusto Oliveira Codo de Sousa
+* Felipe de Oliveira Cabral
+* Sofia Bueris Netto de Souza
+
+## 🎓 Academic Context
+
+Project developed as part of the **Global Solution – AI Computer Systems and Sensors**, within the **Artificial Intelligence Technology** degree program.
+
+## 🚀 Future Improvements
+
+* Integration with weather APIs
+* Alert notifications via mobile app or SMS
+* Cloud-based data storage
+* Web dashboard for historical data visualization
