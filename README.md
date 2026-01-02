@@ -56,7 +56,6 @@ Projeto desenvolvido como parte da **Global Solution – AI Computer Systems and
 - Armazenamento de dados em nuvem
 - Dashboard web para visualização histórica
 
-```
 
 ---
 
